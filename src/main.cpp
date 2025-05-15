@@ -10,7 +10,7 @@ int main() {
 
     // Intenta cargar la fuente desde la carpeta assets
     sf::Font font;
-    if (!font.loadFromFile("assets/fonts/Pokemon_Hollow.ttf")) { // << CAMBIA "tu_fuente.ttf"
+    if (!font.loadFromFile("assets/fonts/Pokemon_Hollow.ttf")) { 
         std::cerr << "Error al cargar la fuente desde assets/fonts/" << std::endl;
         return 1;
     }
